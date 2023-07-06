@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unilag Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="logo-unilag.png" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="logo-unilag.png" alt="" />
+            <h2>UNI<span class="danger">LAG</span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp"> close </span>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="sidebar">
+          <a href="" class="active">
+            <span class="material-icons-sharp"> grid_view </span>
+            <h3>Dashboard</h3>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> person_outline </span>
+            <h3>Student Data</h3>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> receipt_long</span>
+            <h3>Payments</h3>
+            <span class="messages-count">1</span>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> grade</span>
+            <h3>Grade</h3>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> folder </span>
+            <h3>Results</h3>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> calendar_month </span>
+            <h3>School Calendar</h3>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> inventory</span>
+            <h3>Appointments</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> mail_outline</span>
+            <h3>Mail</h3>
+            <span class="messages-count">35</span>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> hotel</span>
+            <h3>Accomodation</h3>
+          </a>
+          <br />
+
+          <a href="">
+            <span class="material-icons-sharp"> school </span>
+            <h3>Scholarships</h3>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> settings </span>
+            <h3>Settings</h3>
+          </a>
+
+          <a href="">
+            <span class="material-icons-sharp"> logout </span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- -------End of aside-------- -->
+      <main>
+        <h1>Dashboard</h1>
+        <div class="date">
+          <input type="date" name="" id="" />
+        </div>
+        <div class="insights">
+          <div class="sales">
+            <span class="material-icons-sharp">library_books</span>
+            <div class="middle">
+              <div class="left">
+                <h1>Courses</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>100%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">All 128 courses completed</small>
+          </div>
+          <!--------------- End of sales--------->
+
+          <div class="expences">
+            <span class="material-icons-sharp">bar_chart</span>
+            <div class="middle">
+              <div class="left">
+                <h1>Projects</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>80%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">10 School Projects</small>
+          </div>
+
+          <!---------------End of expenses ----------->
+
+          <div class="expences">
+            <span class="material-icons-sharp"> grade</span>
+            <div class="middle">
+              <div class="left">
+                <h1>Grade</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>82%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">4.1 CGPA</small>
+          </div>
+
+          <!---------------End of expenses ----------->
+
+          <div class="income">
+            <span class="material-icons-sharp">stacked_line_chart</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Outstanding Fees</h3>
+                <h1>Payments</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>100%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">No Outstanding Fees</small>
+          </div>
+        </div>
+
+        <!--------------- End of income -------------->
+
+        <div class="recent-orders">
+          <h2 class="h2">Courses</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Courses</th>
+                <th>Course Code</th>
+                <th>Unit</th>
+                <th>Grade</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Engineering Mathematics</td>
+                <td>GEG404</td>
+                <td>4</td>
+                <td class="warning">B</td>
+                <td class="primary">Passed</td>
+              </tr>
+
+              <tr>
+                <td>Automobile Tecnology</td>
+                <td>STT413</td>
+                <td>2</td>
+                <td class="warning">B</td>
+                <td class="primary">Passed</td>
+              </tr>
+
+              <tr>
+                <td>Logic of Science</td>
+                <td>GST440</td>
+                <td>1</td>
+                <td class="warning">C</td>
+                <td class="primary">Passed</td>
+              </tr>
+
+              <tr>
+                <td>Engineering Physics</td>
+                <td>GEG444</td>
+                <td>3</td>
+                <td class="warning">A</td>
+                <td class="primary">Passed</td>
+              </tr>
+              <tr>
+                <td>Maths and Computer</td>
+                <td>FSC454</td>
+                <td>3</td>
+                <td class="warning">A</td>
+                <td class="primary">Passed</td>
+              </tr>
+              <tr>
+                <td>Computer and Electronics</td>
+                <td>FSC446</td>
+                <td>3</td>
+                <td class="warning">A</td>
+                <td class="primary">Passed</td>
+              </tr>
+              <tr>
+                <td>People and Culture</td>
+                <td>GST454</td>
+                <td>1</td>
+                <td class="warning">A</td>
+                <td class="primary">Passed</td>
+              </tr>
+              <tr>
+                <td>Basic Technology and Analysis</td>
+                <td>FSC455</td>
+                <td>3</td>
+                <td class="warning">A</td>
+                <td class="primary">Passed</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+      </main>
+      <!-------------------- END OF MAIN---------------- -->
+
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <div id="theme-Toggler" class="theme-Toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p>Hey, <b>Damilare</b></p>
+              <small class="text-muted">Dauda</small>
+            </div>
+            <div class="profile-photo">
+              <img src="image.png" />
+            </div>
+          </div>
+        </div>
+        <!----------------END OF TOP--------------- -->
+        <div class="recent-updates">
+          <h2>Basic Data</h2>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-photo">
+                <img src="image.png" alt="" />
+              </div>
+              <div class="message">
+                <p>
+                  <b>Damilare Dauda </b> <br />
+                  Bachelor of Education in Technology
+                </p>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-4.jpg" alt="" />
+              </div>
+              <div class="message">
+                <p>
+                  <b>Courses <br /> </b> All courses Completed
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------END OF RECENT UPDATES--------- -->
+        <div class="sales-analytics">
+          <h2>Notification Updates</h2>
+          <div class="item online">
+            <div class="icon">
+              <span class="material-icons-sharp">mail</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>Mail</h3>
+                <small class="text-muted">Last 24 Hours</small>
+              </div>
+              <h5 class="danger">35</h5>
+            </div>
+          </div>
+
+          <div class="item offline">
+            <div class="icon">
+              <span class="material-icons-sharp">school</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>Scholarships</h3>
+                <small class="text-muted">Last 24 Hours</small>
+              </div>
+              <h5 class="danger">12+</h5>
+            </div>
+          </div>
+
+          <div class="item offline">
+            <div class="icon">
+              <span class="material-icons-sharp">inventory</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>Appointments</h3>
+                <small class="text-muted">Last 24 Hours</small>
+              </div>
+              <h5 class="success">0</h5>
+            </div>
+          </div>
+
+          <div class="item online">
+            <div class="icon">
+              <span class="material-icons-sharp">event</span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>Event</h3>
+                <small class="text-muted">Upcoming</small>
+              </div>
+              <h5 class="success">3</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var icon = document.getElementById("theme-Toggler");
+      icon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+      };
+    </script>
+  </body>
+</html>
